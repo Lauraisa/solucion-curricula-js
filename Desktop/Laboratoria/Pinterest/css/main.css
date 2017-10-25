@@ -1,0 +1,97 @@
+
+header  {
+  outline: 1px solid blue;
+  top:0;
+  width: 83rem;
+  position: fixed;
+  background: rgb(207, 180, 186);
+  z-index: 1000
+}
+
+
+}
+/* */
+
+div .barra {
+
+
+}
+input {
+  width: 900px;
+  margin-top: 2rem;
+  height: 2rem;
+}
+/*icono pinterest */
+.imagen {
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.icono [class^="icon-"], [class*=" icon-"] {
+display: absolute;
+float: right;
+margin-top: 1rem;
+}
+
+.menu {
+  outline: 1px solid yellow;
+}
+/* colocamos los elementos en linea*/
+ .menu ul {
+   /*outline: 1px solid yellow;*/
+   margin: 0;
+   list-style: none;
+   line-height: 5rem;
+}
+
+ .menu li {
+  width: 8rem;
+  display: inline-block;
+  text-align: center;
+}
+/* Damos estilo*/
+ a {
+  background-color: rgb(98, 79, 154);
+  color: rgb(255, 251, 251); /* letter white*/
+  text-decoration: none; /* quita el  subrayado de los link*/
+  padding-left: 0rem;
+  display: block;
+  border-radius: 0.5rem;
+ }
+
+ section .box {
+ outline: 1px solid green;
+  top: 0;
+ }
+
+  .contenedor {
+   width: 70rem;
+   left: 4rem;
+   box-sizing: border-box;
+   top: 9rem;
+ }
+
+.element {
+width: 220px;
+background: rgb(218, 235, 222);
+float: left;
+margin-right:20px;s
+margin-bottom: 20px;
+margin-top: 2rem;
+border-radius: 1rem;
+box-shadow: 0 1px 2px 0 rgb(0, 0, 0);/*color plomo */
+
+ }
+ img {
+   border-radius: 1rem;
+
+
+ }
+p {
+
+  padding: 10px;
+  font-size: 13px;
+
+}
+.element img{
+  width: 100%;
+}
